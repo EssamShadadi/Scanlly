@@ -6,6 +6,11 @@ Database schema and MYSQL script in Scanlly/DB/V_1.0/
 
 Server APIs in Scanlly/server API/
 
+Use the QR code images to try the app from your phone: 
+ 
+  - admin.png to visit the admin page
+  - table 4.png to visit the app as a customer
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
 
 ## Development server
