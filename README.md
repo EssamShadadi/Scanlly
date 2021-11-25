@@ -1,6 +1,9 @@
 # ScanllyWeb
+
 Frontend code in Scanlly/src/app/
+
 Database schema and MYSQL script in Scanlly/DB/V_1.0/
+
 Server APIs in Scanlly/server API/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
