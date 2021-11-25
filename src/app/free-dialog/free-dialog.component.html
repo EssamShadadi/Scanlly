@@ -1,0 +1,26 @@
+<div  class="card-container" >
+    
+
+    
+    <div  class="card c_flex_col">
+     <div class="text-block">
+        <div  class = "btn-container" > <h2>Invoice #: {{data.invId}}</h2></div>
+         <table style="width:100%">
+             <tr><th>Quantity</th><th>Food Name</th><th>Price</th><th>sub total</th></tr>
+             <tr *ngFor="let invoice of invoice.data">
+                <td>{{invoice.quantity}}</td>
+                <td>{{invoice.FoodEnName}}</td>    
+                <td>{{invoice.foodPrice}}$</td>
+                <td>{{cal(invoice.quantity,invoice.foodPrice)}} $</td>
+            </tr>
+         </table>
+         <hr>
+         <div  class = "btn-container" > <h2>Total : {{invoice.totalAmount}} $</h2></div>
+         <div  class = "btn-container" > <h5>Date : {{invoice.invDt}}</h5></div>
+    </div>
+   </div>
+   <mat-dialog-actions class="btn">
+    <button mat-button  mat-dialog-close="false">Close</button>
+    <button mat-button mat-dialog-close="true" >Confirm</button>
+</mat-dialog-actions>
+   </div>

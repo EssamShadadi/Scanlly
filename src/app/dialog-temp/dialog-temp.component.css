@@ -1,0 +1,14 @@
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.quntity{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 19px;
+    justify-content: center;
+
+}

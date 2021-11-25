@@ -1,0 +1,9 @@
+td{
+    text-align: center;
+}
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16px;
+}
